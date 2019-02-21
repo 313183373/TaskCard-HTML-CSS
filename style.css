@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    width: 1800px;
+    background-color: #80a8cc;
+}
+
+body {
+    margin: 100px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+header {
+    height: 100px;
+    background-color: #fcf9f4;
+    display: flex;
+    align-items: center;
+}
+
+header > * {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 400px;
+    border-right: 1px solid #eae7e2;
+}
+
+nav {
+    flex: 1;
+    padding: 0 42px;
+    color: #d8d6d5;
+}
+
+nav ul {
+    flex: 1;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    font-weight: 500;
+}
+
+.donate {
+    width: 400px;
+    border-left: 1px solid #eae7e2;
+}
+
+.donate button {
+    color: #4d4e59;
+    border: 1px solid #dad7d2;
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: transparent;
+    margin-left: 42px;
+}
+
+.poster {
+    height: 794px;
+    background-image: url("https://ws1.sinaimg.cn/large/006tKfTcly1g0e5ws47i1j318g0p0gpl.jpg");
+}
+
+.poster .curtain{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);     
+    position: relative; 
+}
+
+.poster .curtain .content {
+    position: relative; 
+    top: 300px;
+}
+
+.poster .curtain h1 {
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.poster .curtain .content .type {
+    text-align: center;
+}
+
+.poster .curtain .content .type button {
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 270px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #eee;
+}
+
+.poster .curtain .content .type button:first-of-type {
+    margin-right: 30px;
+    background-color: transparent;
+}
+
+.poster .curtain .content .type button:last-of-type {
+    border: 0px;
+}
+
+.mission {
+    background-color: #fcf9f4;
+}
+
+.mission .content {
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+.mission .content h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 52px;
+    font-weight: 400;
+    color: #4d4e59;
+    text-align: center;
+    margin: 0;
+}
+
+.mission .content p {
+    margin: 32px auto;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    text-align: center;
+    color: #636471;
+}
+
+.mission .content button {
+    width: 270px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #ffcd52;
+    color: #636471;
+    border: 0;
+    margin: auto;
+    display: block;
+    font-size: 16px;
+}
+section {
+    height: 700px;
+    padding-top: 170px;
+}
+
+.students {
+    background-color: #91d0b1;
+}
+
+section .content {
+    display: flex;
+    align-items: center;
+    padding-left: 312px;
+    padding-right: 300px;
+}
+
+section .content .circle {
+    width: 330px;
+    height: 330px;
+    border-radius: 165px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+section:nth-child(2n+1) .content .right-side {
+    margin-left: 138px;
+    flex: 1;
+}
+
+section:nth-child(2n) .content .right-side {
+    margin-right: 138px;
+}
+
+section:nth-child(2n) .content .circle {
+    order: 2;
+}
+
+section .content h2{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 52px;
+    font-weight: 400;
+    color: #fcf9f4;
+}
+
+section .content .right-side p {
+    margin: 32px 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #fcf9f4;
+    line-height: 30px;
+}
+section .content .right-side button {
+    width: 300px;
+    height: 60px;
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    border: 0;
+    color: #fffcf8;
+    font-size: 22px;
+}
+
+.prospective {
+    background-color: #ffcd62;
+}
+
+.partners {
+    background-color: #80a8cc;
+}
+
+.progress {
+    height: 840px;
+    background-color: #fcf9f4;
+    padding-top: 170px;
+    padding-left: 218px;
+    padding-right: 218px;
+}
+
+.progress .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.progress .content h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 52px;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #909094;
+}
+
+.progress .content .data-block {
+    height: 350px;
+    border: 1px solid #eeece7;
+    border-radius: 4px;
+    flex: 1;
+    text-align: center;
+}
+
+.progress .content .data-block .number {
+    font-size: 72px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: lighter;
+    margin: 0;
+    margin-top: 75px;
+}
+
+.progress .content .data-block .description {
+    margin: 0;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.green {
+    color: #91d0b1;
+}
+
+.yellow {
+    color: #ffcd62;
+}
+
+.blue {
+    color: #80a8cc;
+}
+
+.progress .content .yellow {
+    margin: 0px 30px;
+}
+
+footer {
+    height: 100px;
+    background-color: #4d4e59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    margin: 0;
+    color: #d4d2d0;
+}
